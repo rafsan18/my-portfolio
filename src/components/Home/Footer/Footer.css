@@ -1,0 +1,11 @@
+footer {
+    background-color: var(--darkColor);
+    padding: 10px 0;
+}
+footer p {
+    margin-bottom: 0;
+}
+.social-icon {
+    color: var(--lightColor);
+    font-size: 22px;
+}
