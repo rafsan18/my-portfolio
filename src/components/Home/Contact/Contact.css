@@ -1,0 +1,65 @@
+.contact {
+    padding: 2rem 4rem;
+    background-color: var(--darkColor);
+}
+.contact-item {
+    margin-bottom: 3rem;
+}
+.contact-title {
+    color: var(--brandColor);
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: calc(var(--letterSpacing) * 1.5);
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.contact-text {
+    color: var(--lightColor);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--darkColor);
+    border-bottom: 2px solid var(--brandColor);
+    outline: none;
+    margin: 2rem 0;
+    padding: 1.3rem 0;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.form-control:focus {
+    background-color: var(--darkColor);
+    color: var(--brandColor);
+}
+.form-control::placeholder {
+    color: var(--lightColor);
+    text-transform: uppercase;
+    letter-spacing: var(--letterSpacing);
+}
+.submit-btn {
+    display: inline-block;
+    background: var(--darkColor);
+    text-transform: uppercase;
+    padding: 0.1rem 1.3rem;
+    color: var(--lightColor);
+    outline: 0.1rem solid var(--lightColor);
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: var(--mainTransition);
+}
+.submit-btn:hover {
+    background-color: var(--lightColor);
+    color: var(--darkColor);
+}
+@media screen and (min-width: 992px) {
+    .contact-info,
+    .contact-form {
+        float: left;
+        width: 50%;
+        padding: 0 1rem;
+    }
+    .contact-info {
+        padding-top: 5rem;
+    }
+}
