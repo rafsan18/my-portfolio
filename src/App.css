@@ -6,6 +6,12 @@
     --mainTransition: all 0.3s ease-in-out;
 }
 
+body {
+    overflow-x: hidden;
+}
+.text-brand {
+    color: var(--brandColor);
+}
 .App {
     text-align: center;
 }

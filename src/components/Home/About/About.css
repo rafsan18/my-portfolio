@@ -1,0 +1,20 @@
+.about-container {
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+}
+
+.self-img {
+    border: 2px double var(--darkColor);
+    width: 200px;
+    border-radius: 50%;
+}
+
+.intro {
+    height: 80vh;
+}
+
+.comfortable-in,
+.familiar-with,
+.tools {
+    margin-bottom: 40px;
+}
