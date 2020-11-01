@@ -1,0 +1,9 @@
+.content-divider {
+    height: 0.5rem;
+    background-image: linear-gradient(
+        to right,
+        var(--brandColor),
+        #44ffd2,
+        var(--brandColor)
+    );
+}
