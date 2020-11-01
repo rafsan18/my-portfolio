@@ -1,0 +1,7 @@
+/* .projects-container {
+    background-color: var(--lightColor);
+} */
+
+#projects {
+    color: var(--darkColor);
+}

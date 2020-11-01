@@ -2,6 +2,7 @@ import React from "react";
 import About from "../About/About";
 import Hero from "../Hero/Hero";
 import Navbar from "../Navbar/Navbar";
+import Projects from "../Projects/Projects";
 import "./Home.css";
 
 const Home = () => {
@@ -12,6 +13,9 @@ const Home = () => {
             <Navbar></Navbar>
             <div className="content-divider"></div>
             <About></About>
+            <div className="content-divider"></div>
+            <Projects></Projects>
+            <div className="content-divider"></div>
         </div>
     );
 };

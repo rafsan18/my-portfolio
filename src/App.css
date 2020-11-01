@@ -3,7 +3,7 @@
     --lightColor: #fffcff;
     --brandColor: #87f6ff;
     --letterSpacing: 0.5rem;
-    --mainTransition: all 0.3s ease-in-out;
+    --mainTransition: all 0.5s ease-in-out;
 }
 
 body {

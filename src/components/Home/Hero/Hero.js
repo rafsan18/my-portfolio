@@ -24,6 +24,7 @@ const Hero = () => {
             <a
                 className="hero-btn btn btn-outline-light w-25"
                 href={resumeLink}
+                target="_blank"
             >
                 Resume
             </a>

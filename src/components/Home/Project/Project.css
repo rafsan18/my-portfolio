@@ -1,0 +1,31 @@
+.project-img {
+    height: 240px;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 9px 13px -1px rgba(0, 0, 0, 0.56);
+    box-shadow: 5px 9px 13px -1px rgba(0, 0, 0, 0.56);
+}
+
+.tech {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 3px 6px;
+    border: 1px solid var(--brandColor);
+}
+
+.link-icon {
+    color: var(--lightColor);
+    font-size: 22px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.link-icon:hover {
+    color: var(--brandColor);
+    transform: translateY(-5px);
+    transition: var(--mainTransition);
+}

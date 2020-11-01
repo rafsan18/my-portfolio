@@ -2,7 +2,7 @@ import React from "react";
 
 const Skill = ({ skill }) => {
     const { name, img } = skill;
-    console.log(name, img);
+
     return (
         <div className="mx-3 my-2">
             <img
